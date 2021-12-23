@@ -1,8 +1,8 @@
-# Setup The Repo
-This file explains how to setup the entire repo.
+# Setup The Repository
+This file explains how to setup the entire repository.
 
 ## Contents
-- Setup The Repo
+- Setup The Repository
   - [1. Requirements](#1-requirements)
   - [2. Repository Setup](#2-repository-setup)
   - [3. Unity Setup](#3-unity-setup)
@@ -10,10 +10,10 @@ This file explains how to setup the entire repo.
   - [5. PicoVoice Setup](#5-picovoice-setup)
 
 ## 1. Requirements
-This repo was tested in Ubuntu 20.04 with ROS noetic so it requires prior installation of [ROS noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) and [Unity Hub](https://unity.com/download).
+This repo was tested on Ubuntu 20.04 with ROS noetic so it requires prior installation of [ROS noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) and [Unity Hub](https://unity.com/download).
 
 ## 2. Repository Setup
-In-order to setup the repository locally on your system open a new terminal and follow the instructions below
+In-order to setup the repository locally on your system, open a new terminal and follow the instructions below
 
     mkdir catkin_ws
     cd catkin_ws
@@ -42,7 +42,7 @@ To setup Unity open Unity Hub and follow the instructions below:
 
     ![](docs/img/unity_hospital.png)
 
-## 3. ROS Setup
+## 4. ROS Setup
 To setup the ROS part of the repository open a new terminal and follow the instructions below.
 
     cd catkin_ws/ROS
@@ -52,3 +52,6 @@ To setup the ROS part of the repository open a new terminal and follow the instr
     source devel/setup.bash
 
 Make sure that every new terminal running ROS components is sourced to avoid unable to find package issue.
+
+## 5. PicoVoice Setup
+TODO: Add instruction
